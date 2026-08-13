@@ -34,10 +34,14 @@
   white-space: nowrap;
 }
 
-.brand img {
-  width: 42px;
-  height: 42px;
+.header-logo {
+  width: 42px !important;
+  height: 42px !important;
+  max-width: 42px !important;
+  max-height: 42px !important;
   object-fit: contain;
+  display: block;
+  transform: none !important;
 }
 
 .brand-name {
