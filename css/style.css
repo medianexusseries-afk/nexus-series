@@ -79,8 +79,8 @@
       letter-spacing: 5px;
       margin-bottom: 25px;
     }
-    .hero-logo {
-  margin: 0 auto 12px;
+  .hero-logo {
+  margin: 25px auto 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,6 +90,7 @@
   width: 180px;
   height: auto;
   display: block;
+  transform: scale(2.1);
 }
 
     h1 {
