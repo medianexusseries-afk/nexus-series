@@ -25,10 +25,26 @@
 }
 
     .brand {
-      font-size: 22px;
-      font-weight: 700;
-      letter-spacing: 3px;
-    }
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+.brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.brand-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
 
     .brand span {
       color: #c7a354;
