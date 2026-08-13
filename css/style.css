@@ -90,6 +90,7 @@
   width: 150px;
   height: auto;
   display: block;
+ transform: none;
 }
 
     h1 {
