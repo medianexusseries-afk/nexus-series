@@ -283,20 +283,33 @@ p {
 
 /* SMALL CONTACT ICON */
 
-.contact-icon {
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
+.contact-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
+.twitch-icon {
+  width: 18px;
+  height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #9146ff;
+}
 
-  border: 1px solid rgba(199, 163, 84, 0.75);
-  border-radius: 50%;
-
-  color: #c7a354;
-  font-size: 14px;
+.twitch-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .contact-x {
