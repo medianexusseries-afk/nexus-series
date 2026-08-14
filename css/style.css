@@ -87,9 +87,7 @@ nav a:hover {
 
 .hero-background {
   width: 100%;
-  height: min(680px, calc(100vh - 76px));
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   display: block;
 }
 
